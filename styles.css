@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a {
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2% 2%;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.event {
+    height: auto;
+    width: 50%
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0px 15px;
+}
+
+.social__links li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+    float: right;
+}
+
+.social__links a {
+    font-size: 40px;
+    text-align: right;
+}
