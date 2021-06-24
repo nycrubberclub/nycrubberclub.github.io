@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
 li,
@@ -43,10 +44,24 @@ header {
     display: inline-block;
     list-style: none;
     padding: 0px 5px;
-    float: right;
 }
 
 .social__links a {
     font-size: 40px;
     text-align: right;
+}
+
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 6px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-grid img {
+    width: 300px;
+    height: auto;
+    padding: 15px;
 }
