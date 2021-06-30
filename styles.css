@@ -65,3 +65,9 @@ header {
     height: auto;
     padding: 15px;
 }
+
+.flex-grid_large img {
+    width: 600px;
+    height: auto;
+    padding: 15px;
+}
