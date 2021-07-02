@@ -1,2 +1,2 @@
-# nycrubbermen.github.io
-Master website repository
+# nycrubberclub.github.io
+website repository
