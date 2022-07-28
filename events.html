@@ -2,7 +2,8 @@
 
 <head>
     <title>NYC Rubber Club</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="cal_embed.css">
 </head>
 
 <body>
@@ -21,25 +22,23 @@
     </header>
 
     <h1 style="text-align: center;">NEXT EVENT</h1>
-    <div class="flex-grid flex-grid_large">
-        <img src="events/EventPoster-2022.07.16-PlayHouse-NYCRubberClub-Social.png" alt="A NYC Rubber Club party joining Schenanigans at Playhouse Bar 8pm-12am Sat 16th Jul" />
-    </div>
+        <div class="flex-grid flex-grid_large">
+            <img src="events/EventPoster-2022.09.17-Metropolitan-Social.png" alt="A NYC Rubber Club party joining Schenanigans at Playhouse Bar 8pm-12am Sat 16th Jul" />
+        </div>
 
     <br>
-
     <h1 style="text-align: center;">FUTURE EVENTS</h1>
     <br>
-    <div class="flex-grid">
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=AGENDA&showTitle=1&title=NYC%20Rubber%20Club%20Events&showNav=0&showPrint=1&showTabs=1&showCalendars=1&src=amZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%239E69AF"
-            style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
+    <div id="RubberClubEventsCal" class="flex-grid"></div>
 
     <br>
-
     <h1 style="text-align: center;">PAST EVENTS</h1>
     <h1 style="text-align: center;">2022</h1>
     <div class="flex-grid">
         <div>
+            <img src="events/EventPoster-2022.07.16-PlayHouse-NYCRubberClub-Social.png" alt="A NYC Rubber Club party joining Schenanigans at Playhouse Bar 8pm-12am Sat 16th Jul" />
+        </div>
+            <div>
             <img src="events/EventPoster-2022.06.17-NowhereBar-RuffHouse-Party.JPG" alt="A NYC Rubber Club party joining RuffHouse at NoWhere Bar 10pm-4am Fri 17th Jun" />
         </div>
         <div>
@@ -121,4 +120,19 @@
             <img src="events/EventPoster-20190224-RubbermenNYC.jpg" />
         </div>
     </div>
+
+    <script>(function() {
+        // Zetabee.com calendar embed - Customize these as you wish
+        var pastdays   = 0;       // # of past days to show (0 to 30)
+        var futuredays = 365;     // # of future days to show (0 to 365)
+        var cachemins  = 10;      // # of minutes to wait before refreshing calendar data (2 to 1440)
+        var container  = "RubberClubEventsCal";  // ID of div to embed calendar into
+    
+        // Do not change anything below this
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://zetabee.com/icaljs/embed?calid=QW1FVkRTemtPclMvVjh2bW1rUUg3UT09&offset=0&cachemins=" + cachemins + "&futuredays=" + futuredays + "&pastdays=" + pastdays + "&container=" + container;
+        (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(s);
+    })();</script>
 </body>
