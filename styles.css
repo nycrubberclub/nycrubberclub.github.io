@@ -28,16 +28,20 @@ header {
     list-style: none;
 }
 
+.nav__bar {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
 .nav__links li {
     display: inline-block;
-    list-style: none;
     justify-content: flex-start;
     padding: 0px 15px;
 }
 
 .social__links li {
     display: inline-block;
-    list-style: none;
     padding: 0px 5px;
 }
 
@@ -62,7 +66,7 @@ header {
 }
 
 .flex-grid_large img {
-    width: 600px;
-    height: auto;
+    width: 80%;
+    object-fit: contain;
     padding: 15px;
 }
