@@ -12,23 +12,31 @@
   gtag('js', new Date());
 
   gtag('config', 'G-7GKQGE2VJW');
+
+  function copyText() {
+    var copyText = document.getElementById("copyText");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+    alert("Text copied to clipboard");
+  }
 </script>
 
 <body>
     <h1 style="text-align: center;">HOW TO SUBSCRIBE TO NYC RUBBER CLUB EVENTS CALENDAR</h1>
     <br>
-    <h2>Apple iOS (iPhone/iPad/iPod) Calendar</h2>
+
+    <h2 style="color: Green">Apple iOS (iPhone/iPad/iPod) Calendar</h2>
     <hr> (instructions accurate as of iOS 14.6 @ Thu 24 Jun 2021)
     <h3>Subscribe</h3>
     <ol>
-        <li>Open this page on your iPhone browser (so copying the link below is easier)</li>
-        <li>On your home screen tap the <b>'Settings'</b></li>
-        <li>Select <b>'Calendar'</b></li>
-        <li>Select <b>'Add Account'</b> and select Other</li>
-        <li>Select <b>'Other'</b></li>
-        <li>Select <b>'Add Subscribed Calendar'</b> option at the bottom of the list</li>
-        <li>Paste the URL <b>https://calendar.google.com/calendar/ical/jffshs6qd0nk6e002cf030fufk%40group.calendar.google.com/public/basic.ics</b> and click <b>'Next'</b></li>
-        <li>Change any settings you see fit before saving the calendar. You do not need a username or password</li>
+        <li>On your home screen tap the <b>'Settings' > 'Calendar' > 'Accounts' > 'Add Account' > 'Other' > 'Add Subscribed Calendar'</b></li>
+        <li>Paste the URL and click <b>'Next'</b>
+        <ul>
+            <button id="copyBtn" onclick="copyText()">Click to Copy URL</button>
+            <input type="text" id="copyText" value="https://calendar.google.com/calendar/ical/jffshs6qd0nk6e002cf030fufk%40group.calendar.google.com/public/basic.ics">
+        </ul>
+        <li>You do not need a username or password.  Change any settings you see fit before saving the calendar and click <b>'Next'</b></li>
     </ol>
     <h3>Make changes to your subscription or unsubscribe</h3>
     <ol>
@@ -47,14 +55,19 @@
 
 
     <br>
-    <h2>Google Calendar</h2>
+    <h2 style="color: Green">Google Calendar</h2>
     <hr> (instructions accurate as of @ Fri 02 July 2021)
     <h3>Subscribe</h3>
     <ol>
         <li>Open google calendar https://calendar.google.com</li>
         <li>On the left sidebar, click the <b>"+"</b> icon next to <b>Other calendars</b></li>
         <li>Click <b>From URL</b></li>
-        <li>Paste in <b>https://calendar.google.com/calendar/ical/jffshs6qd0nk6e002cf030fufk%40group.calendar.google.com/public/basic.ics</b></li>
+        <li>Paste the URL and click <b>'Next'</b>
+            <ul>
+                <button id="copyBtn" onclick="copyText()">Click to Copy URL</button>
+                <input type="text" id="copyText" value="https://calendar.google.com/calendar/ical/jffshs6qd0nk6e002cf030fufk%40group.calendar.google.com/public/basic.ics">
+            </ul>
+        </li>
     </ol>
     <h3>Make changes to your subscription</h3>
     <ol>
@@ -70,8 +83,13 @@
     </ol>
 
     <br>
-    <h2>Android / Google Calendar</h2>
-    <hr> (instructions pending)
+    <h2  style="color: Green">Android / Google Calendar</h2>
+    <hr>
+    (instructions pending)
 
+    <br>
+    <h2  style="color: Green">Microsoft Outlook</h2>
+    <hr>
+    <a href="https://support.microsoft.com/en-us/office/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df">Microsoft Instructions</a>
 
 </body>
