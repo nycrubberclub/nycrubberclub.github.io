@@ -3,7 +3,10 @@
 <head>
     <title>NYC Rubber Club</title>
     <link rel="stylesheet" href="styles.css">
+    
     <script src="https://kit.fontawesome.com/f3939260cb.js" crossorigin="anonymous"></script>
+    <script src="js/publishUtilities.js" onload="publishNextEvents()"></script>
+
     <meta property="og:title" content="NYC Rubber Club" />
     <meta property="og:image" content="events/2023/2023.05.07 - AllNightSkate - Social (1024x1582).jpg" />
     <meta name="description" content="A social club for rubber/latex culture and the multi-fetish/kink community in New York City"/>
@@ -47,10 +50,7 @@
         <H1>NEXT EVENT</H1>
         Click poster to add event to your Google Calendar! <br>
         or <a target="_blank" href="calendar.html">subscribe</a> to our calendar on your local device to get live updates as they are released!
-        <div class="flex-grid flex-grid_large">
-            <a target="_blank" href="https://calendar.google.com/calendar/r/eventedit/copy/NzJ0MDM2OTFsMmhxZGc3aTFkYnE1OXFhcnIgamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw">
-              <img src="events/2023/2023.06.16 - NowhereBar - Party (1024x1582).jpg" alt="Join us for a rubber filled fun night at Nowhere Bar in Manhattan!" />
-            </a>
+        <div id="next_event" class="flex-grid flex-grid_large">
         </div>
 
         <br>
@@ -115,5 +115,4 @@
         Copyright 2023, All Rights Reserved
     </div>
 </body>
-
 </html>

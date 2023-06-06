@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 
 <head>
-    <title>NYC Rubber Club - Events</title>
+    <title>NYC Rubber Club - Past Events</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="cal_embed.css">
+
+    <script src="js/publishUtilities.js" onload="publishPastEvents()"></script>
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -82,66 +84,8 @@
     
     <br>
     <h1 style="text-align: center;">PAST EVENTS</h1>
-    <h1 style="text-align: center;">2023</h1>
-        <div class="flex-grid">
-            <div>
-                <img src="events/2023/2023.05.07 - AllNightSkate - Social (1024x1582).jpg" alt="Join us for a rubber filled fun night at All Night Skate Bar in Brooklyn!" />
-            </div>
-            <div>
-                <img src="events/2023/2023.04.22 - Rockbar - Rubber Contest (1024x1582).jpg" alt="First annual NYC Rubber Club title holder competition" />
-            </div>
-            <div>
-                <img src="events/2023/2023.04.21 - NowhereBar - Rubber Contest Meet and Greet.jpeg" alt="First annual NYC Rubber Club title holder competition meet and greet" />
-            </div>
-            <div>
-                <img src="events/2023/2023.04 - NYCRC2023 - Rubber Contest Weekend (1024x1582).jpg" alt="First annual NYC Rubber Club title holder competition weekend" />
-            </div>
-            <div>
-                <img src="events/2023/2023.03.11 - Metropolitan - Social (1024x1582).png" alt="A NYC Rubber Club social at Metropolitan Bar 6pm-10pm Sat 11th Mar 2023" />
-            </div>
-            <div>
-                <img src="events/2023/2023.02.12 - Atlas Social Club - Social.png" alt="A NYC Rubber Club social at Atlas Social Club 5pm-9am Sun 12th Feb 2023" />
-            </div>
-            <div>
-                <img src="events/2023/2023.01.20 - Nowhere Bar - Rurffhouse - Party.jpg" alt="A NYC Rubber Club party at Nowhere Bar 10pm-4am Fri 20th Jan 2023" />
-            </div>
-        </div>
-    <h1 style="text-align: center;">2022</h1>
-        <div class="flex-grid">
-            <div>
-                <img src="events/2022/EventPoster-2022.12.09-Atlas-NYCRubberClub-Social.png" alt="A NYC Rubber Club social at Atlas Social Bar 5pm-10pm Fri 09th Dec 2022" />
-            </div>
-            <div>
-                <img src="events/2022/EventPoster-2022.11.12-AllNightSkate-NYCRubberClub-Social.png" alt="A NYC Rubber Club social at All Night Skate Bar with Mr Melbourne Rubberman 2021 6pm-10pm Sat 12th Nov 2022" />
-            </div>
-            <div>
-                <img src="events/2022/EventPoster-2022.10.23-Eagle-MrRubberFrance-Social.png" alt="A NYC Rubber Club social at The NYC Eagle Bar with Mr Rubber France 5pm-10pm Sun 23rd Oct" />
-            </div>
-            <div>
-                <img src="events/2022/EventPoster-2022.09.17-Metropolitan-Social.png" alt="A NYC Rubber Club social at Metropolitan Bar outside back yard event 5pm-10pm Sat 16th Jul" />
-            </div>
-            <div>
-                <img src="events/2022/EventPoster-2022.07.16-PlayHouse-NYCRubberClub-Social.png" alt="A NYC Rubber Club party joining Schenanigans at Playhouse Bar 8pm-12am Sat 16th Jul" />
-            </div>
-                <div>
-                <img src="events/2022/EventPoster-2022.06.17-NowhereBar-RuffHouse-Party.JPG" alt="A NYC Rubber Club party joining RuffHouse at NoWhere Bar 10pm-4am Fri 17th Jun" />
-            </div>
-            <div>
-                <img src="events/2022/EventPoster-2022.05.13-NYCRubberClub-Social.png" alt="A NYC Rubber Social at Atlas Social Club NYC Bar 5pm-10pm Fri 13th May" />
-            </div>
-            <div>
-                <img src="events/2022/EventPoster-2022.04.09-Eagle-Onyx-Social.jpeg" alt="A joint party with ONYX and NYC Rubber Social at Eagle NYC Bar 8pm-11pm Sat 9th Apr" />
-            </div>
-            <div>
-                <img src="events/2022/EventPoster-2022.03.20-BLUF-NYCRubberClub.jpeg" alt="A joint party with BLUF and NYC Rubber Social at Eagle NYC Bar 5pm-8pm Sun 20th Mar" />
-            </div>
-            <div>
-                <img src="events/2022/EventPoster-20220212-Metropolitan-Social.png" alt="A NYC rubber social at Metropolitan Bar 6pm-10pm Fri 12th Feb" />
-            </div>
-            <div>
-                <img src="events/2022/EventPoster-20220121-NYCRubberClub-LeatherAndLatex.png" alt="A NYC rubber social joining RuffHouse at NoWhere Bar 10pm-4am Fri 21st Jan" />
-            </div>
-        </div>
+    <div id="past_events" class="flex-grid">
+    </div>
 
     <br>
     <h1 style="text-align: center;">2021</h1>

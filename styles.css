@@ -64,6 +64,12 @@ header {
     padding: 10px;
 }
 
+.flex-grid_small img {
+    max-width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
 .flex-grid_large img {
     width: 500px;
     object-fit: contain;
