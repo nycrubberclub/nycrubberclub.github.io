@@ -1,6 +1,13 @@
 {
     "events": [
         {
+            "datetime_valid_et": "2023/09/23 10:00 PM",
+            "datetime_expire_et": "2023/10/15 09:00 PM",
+            "url_image": "events/2023/2023.10.15 - Nowhere Bar - GearSwap.png",
+            "url_google_calendar": "https://calendar.google.com/calendar/r/eventedit/copy/MzdwOWwwYjNuZ2RlNzVrOWl1NjRjc25tOGMgamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
+            "alt_image_text": "Join us for a fun rubber-filled erotic art and gear swap social at Nowhere Bar!"
+        },
+        {
             "datetime_valid_et": "2023/08/13 4:00 PM",
             "datetime_expire_et": "2023/09/23 10:00 PM",
             "url_image": "events/2023/2023.09.23 - TheExley - Social (1024x1024).jpg",
