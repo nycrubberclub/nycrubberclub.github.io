@@ -1,6 +1,13 @@
 {
     "events": [
         {
+            "datetime_valid_et": "2023/12/03 10:00 PM",
+            "datetime_expire_et": "2024/01/30 10:00 PM",
+            "url_image": "events/2024/2024 - Logo_v4 - Coming_Soon_2024.png",
+            "url_google_calendar": "",
+            "alt_image_text": "2024 Calendar Coming Soon!  Check back frequently for updates or subscribe to our Google Calendar"
+        },
+        {
             "datetime_valid_et": "2023/11/11 10:00 PM",
             "datetime_expire_et": "2023/12/03 10:00 PM",
             "url_image": "events/2023/2023.12.03 - The Eagle - Rubber Social (1024x).jpg",

@@ -129,7 +129,7 @@ function findNextEvents(events) {
     // If no events are valid, display a default event
     if (nextEvent.length === 0) {
         const event = {
-            url_image: "events/check_back_soon.jpg",
+            url_image: "images/NYC_RubberClub_ComingSoon_v4_logo.png",
             url_google_calendar: "",
             alt_image_text: "Check back soon for our next event!"
         };
