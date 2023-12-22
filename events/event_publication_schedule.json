@@ -1,8 +1,15 @@
 {
     "events": [
         {
+            "datetime_valid_et": "2023/12/22 4:00 AM",
+            "datetime_expire_et": "2024/01/21 4:00 AM",
+            "url_image": "events/2024/2024.01.20 - Nowhere Bar - Ruffhouse - Party (1024x).jpg",
+            "url_google_calendar": "https://calendar.google.com/calendar/r/eventedit/copy/MjJmcjVvaWZndHBkZXM5dTVtdmRoYWw5NWMgamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
+            "alt_image_text": "Join us for a fun rubber-filled night at Nowhere bar with Ruffhouse!"
+        },
+        {
             "datetime_valid_et": "2023/12/03 10:00 PM",
-            "datetime_expire_et": "2024/01/30 10:00 PM",
+            "datetime_expire_et": "2023/12/22 4:00 AM",
             "url_image": "events/2024/2024 - Logo_v4 - Coming_Soon_2024.png",
             "url_google_calendar": "",
             "alt_image_text": "2024 Calendar Coming Soon!  Check back frequently for updates or subscribe to our Google Calendar"
