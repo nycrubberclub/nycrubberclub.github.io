@@ -1,6 +1,13 @@
 {
     "events": [
         {
+            "datetime_valid_et": "2024/03/17 10:00 PM",
+            "datetime_expire_et": "2024/04/28 10:00 PM",
+            "url_image": "events/2024/2024.04.28 - Nowhere Bar - Seasonal - GearSwap (x1024x).jpg",
+            "url_google_calendar": "https://calendar.google.com/calendar/r/eventedit/copy/NzF0aHRiNWNhYTVobjA1NHIzcmlxZDJlOW0gamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
+            "alt_image_text": "Join us for a fun rubber-filled night at Nowhere bar!"
+        },
+                {
             "datetime_valid_et": "2024/02/10 9:00 PM",
             "datetime_expire_et": "2024/03/17 10:00 PM",
             "url_image": "events/2024/2024.03.17 - Metropolitan Bar - Social (1024x).jpg",
