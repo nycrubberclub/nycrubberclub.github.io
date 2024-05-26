@@ -1,7 +1,5 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
     font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -39,16 +37,8 @@ header {
     padding: 0px 15px;
 }
 
-.social__links li {
-    display: inline-block;
-    padding: 0px 5px;
-}
 
-.social__links a {
-    font-size: 40px;
-    text-align: right;
-}
-
+/* Image grid layout */
 .flex-grid {
     display: flex;
     flex-wrap: wrap;
@@ -74,4 +64,16 @@ header {
     width: 500px;
     object-fit: contain;
     padding: 15px;
+}
+
+.flex-grid-social div {
+    flex: 0 0 auto;
+    margin: 10px;
+    width: 100px;
+    white-space: normal;
+}
+
+/* Learn more list css */
+#learn_more {
+    padding-bottom: 20px;
 }
