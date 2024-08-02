@@ -1,6 +1,13 @@
 {
     "events": [
         {
+            "datetime_valid_et": "2024/08/25 05:00 PM",
+            "datetime_expire_et": "2024/09/15 10:00 PM",
+            "url_image": "events/2024/2024.09.15 - The Eagle - Party - BLUF - (1024x).png",
+            "url_google_calendar": "https://calendar.google.com/calendar/r/eventedit/copy/NTNuNTY2bzFuY3QyamRmMWJybGJrdnVlZDMgamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
+            "alt_image_text": "Join us for a fun rubber-filled night at The Eagle bar!"
+        },
+        {
             "datetime_valid_et": "2024/06/15 10:00 PM",
             "datetime_expire_et": "2024/08/25 05:00 PM",
             "url_image": "events/2024/2024.08.25 - Market 57 - Incognito - Social (1024x).jpg",
