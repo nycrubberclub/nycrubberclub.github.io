@@ -5,24 +5,29 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="cal_embed.css">
 
-    <script src="js/publishUtilities.js" onload="publishPastEvents()"></script>
+    <script>$(function(){$("#social_links").load("socal_links.html");});</script>
+    
+    <script src="js/publishUtilities.js" defer></script>
+    <script>document.addEventListener('DOMContentLoaded', function() {publishPastEvents();});</script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7GKQGE2VJW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-7GKQGE2VJW');
+    </script>
 </head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7GKQGE2VJW"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-7GKQGE2VJW');
-</script>
+
 
 <body>
     <header>
         <nav>
             <div class="nav__bar">
                 <div class="nav__logo">
-                    <a href="https://nycrubber.club/"><img class="logo" style="float:right" src="images/NYC_RubberClub_Logo_v4_White.png" alt="NYC Rubber Club Logo"></a>
+                    <a href="https://nycrubber.club/"><img class="logo" style="float:right" src="images/Transparent_NYC_RubberClub_Logo_v4.png" alt="NYC Rubber Club Logo"></a>
                 </div>
                 <div class="nav__links">
                     <div>
@@ -39,46 +44,6 @@
                             <li><a href="https://docs.google.com/document/d/e/2PACX-1vTKJZrzypI8RUrUjHxTF7cBivaNHs8rw2bITf1GCPjWmMEKdFr4wALb7o6khgldb1253uNy7RvRoZ5G/pub">Latex Repair</a></li>
                             <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe1nQBn1b--bM8tOLC1_aWeXL3sFPmJnWpPbxuZDp_d5Oyhlg/viewform?usp=pp_url">Feedback</a></li>
                             <li><a href="about.html">About</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="social__links">
-                        <ul>
-                            <li>
-                                <a target="_blank" href="https://www.facebook.com/nycrubber.club/">
-                                    <p title="Facebook"><i class="fab fa-facebook-square"></i></p>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://instagram.com/nycrubber.club">
-                                    <p title="Instagram"><i class="fab fa-instagram"></i></p>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="telegram.html">
-                                    <p title="Telegram"><i class="fab fa-telegram"></i></p>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://twitter.com/nycrubberclub">
-                                    <p title="Twitter"><i class="fab fa-twitter"></i></p>
-                                </a>
-                            </li>
-                            <!-- <li>
-                                <a target="_blank" href="https://docs.google.com/document/d/1TLo08NuN-xK6cm4PCudoTkGA6_yIpL3SAsTFPD_dVOg/edit?usp=sharing">
-                                    <p title="Discord"><i class="fab fa-discord"></i></p>
-                                </a>
-                            </li> -->
-                            <li>
-                                <a target="_blank" href="calendar.html">
-                                    <p title="Calendar Subscription"> <i class="far fa-calendar-alt"></i></p>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfGBWaJFJs2leQ9blJ0CewPA-kNuFleoi7o6HVPqFhn4uwGOQ/viewform?usp=sf_link">
-                                    <p title="SMS Text Subscription"><i class="fas fa-comment-dots"></i></p>
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
