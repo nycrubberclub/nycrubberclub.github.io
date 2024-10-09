@@ -1,6 +1,13 @@
 {
     "events": [
         {
+            "datetime_valid_et": "2024/10/13 09:00 PM",
+            "datetime_expire_et": "2024/11/10 09:00 PM",
+            "url_image": "events/2024/2024.11.10 - Metropolitan - Social (1024x).jpg",
+            "url_google_calendar": "https://calendar.google.com/calendar/r/eventedit/copy/MDJhajFkZjBhMmlkOTFpZTJoN2JkcmI1bmMgamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
+            "alt_image_text": "Join us for a fun rubber-filled pup night at Metropolitan Bar!"
+        },
+        {
             "datetime_valid_et": "2024/09/15 10:00 PM",
             "datetime_expire_et": "2024/10/13 09:00 PM",
             "url_image": "events/2024/2024.10.13 - Atlas Social - Social (1024x).jpg",
