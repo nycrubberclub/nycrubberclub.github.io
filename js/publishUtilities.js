@@ -117,13 +117,9 @@ function findNextEvents(events) {
         const validTime = new Date(event.datetime_valid_et);
         const expireTime = new Date(event.datetime_expire_et);
 
-        if (currentTime >= validTime & currentTime <= expireTime) {
+        if (currentTime >= validTime & currentTime < expireTime) {
             nextEvent.push(event);
-            // return false;  // stop publishing loop
-        } 
-        // else {
-        //     return true;   // continue publishing loop
-        // }
+        }
     });
 
     // If no events are valid, display a default event
@@ -134,9 +130,6 @@ function findNextEvents(events) {
             alt_image_text: "Check back soon for our next event!"
         };
         nextEvent.push(event);
-        // const defaultImgElement = document.createElement('img');
-        // defaultImgElement.src = 'path/to/default/event.jpg';
-        // document.body.appendChild(defaultImgElement);
     }
 
     return nextEvent;
