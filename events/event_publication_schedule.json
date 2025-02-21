@@ -1,25 +1,32 @@
 {
     "events": [
         {
+            "datetime_valid_et": "2025/02/23 09:00 PM",
+            "datetime_expire_et": "2025/03/22 09:00 PM",
+            "url_image": "events/2025/2025.03.22 - Atlas - Social - (1024x).jpg",
+            "url_google_calendar": "https://calendar.google.com/calendar/u/0/r/eventedit/copy/M2wwYThyOW0xODY0djQxZGVjdGI3NnNlNjggamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
+            "alt_image_text": "Join us for a fun rubber-filled night at Atlas Social Club!"
+        },
+        {
             "datetime_valid_et": "2025/01/19 12:00 AM",
             "datetime_expire_et": "2025/02/23 09:00 PM",
             "url_image": "events/2025/2025.02.23 - Eagle - Social - (1024x).jpg",
             "url_google_calendar": "https://calendar.google.com/calendar/u/0/r/eventedit/copy/N2c4a2ZocDA5MzlkZ3Y2ZmYzdWQ3dDdlN20gamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
-            "alt_image_text": "Join us for a fun rubber-filled pup night at the NYC Eagle Bar!"
+            "alt_image_text": "Join us for a fun rubber-filled night at the NYC Eagle Bar!"
         },
         {
             "datetime_valid_et": "2024/12/07 09:00 PM",
             "datetime_expire_et": "2025/01/19 12:00 AM",
             "url_image": "events/2025/2025.01.18 - VV Bar - Party - (1024x).jpg",
             "url_google_calendar": "https://calendar.google.com/calendar/u/0/r/eventedit/copy/MHY1ZDJmZ2M1OWJ1c241MWNlMzlqcm9xZTIgamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
-            "alt_image_text": "Join us for a fun rubber-filled pup night at VV Bar!"
+            "alt_image_text": "Join us for a fun rubber-filled night at VV Bar!"
         },
         {
             "datetime_valid_et": "2024/11/10 09:00 PM",
             "datetime_expire_et": "2024/12/07 09:00 PM",
             "url_image": "events/2024/2024.12.07 - VV Bar - Social (1024x).jpg",
             "url_google_calendar": "https://calendar.google.com/calendar/u/0/r/eventedit/copy/NWMyY3ZiMWRnMjIybDNwZ2JkOHJ2NjBmdm0gamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
-            "alt_image_text": "Join us for a fun rubber-filled pup night at VV Bar!"
+            "alt_image_text": "Join us for a fun rubber-filled night at VV Bar!"
         },
         {
             "datetime_valid_et": "2024/10/13 09:00 PM",
