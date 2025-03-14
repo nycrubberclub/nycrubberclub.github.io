@@ -1,6 +1,13 @@
 {
     "events": [
         {
+            "datetime_valid_et": "2025/03/22 09:00 PM",
+            "datetime_expire_et": "2025/04/26 09:00 PM",
+            "url_image": "events/2025/2025.04.26 - Metropolitan - Social - (1024x).jpg",
+            "url_google_calendar": "https://calendar.google.com/calendar/u/0/r/eventedit/copy/MmF2ZTlla2RibTJnZDNvZDN1YzRhcGhtNmMgamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
+            "alt_image_text": "Join us for a fun rubber-filled night at Metropolitan Bar!"
+        },
+        {
             "datetime_valid_et": "2025/02/23 09:00 PM",
             "datetime_expire_et": "2025/03/22 09:00 PM",
             "url_image": "events/2025/2025.03.22 - Atlas - Social - (1024x).jpg",
@@ -12,7 +19,7 @@
             "datetime_expire_et": "2025/04/06 05:00 PM",
             "url_image": "events/2025/2025.04.06 - Kirsten Li - bootyshortsflyer_1.3.jpg",
             "url_google_calendar": "https://www.tickettailor.com/events/kirstenlidesigns/1616406",
-            "alt_image_text": "Join us for a fun rubber-filled night at Atlas Social Club!"
+            "alt_image_text": "Join us for a fun rubber-filled class learning how to make your own bootie shorts!"
         },
         {
             "datetime_valid_et": "2025/01/19 12:00 AM",
