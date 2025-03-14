@@ -166,15 +166,15 @@ function publishEvent({event={}, section=""}={}) {
     linkElement.appendChild(imgElement);
 
     // update the content attribute for social media paste (image url in the header)
-    const ogImageMeta = document.querySelector('meta[property="og:image"]');
+    // const ogImageMeta = document.querySelector('meta[property="og:image"]');
 
-    if (ogImageMeta) {
-        ogImageMeta.content = event.url_image;
-    } else {
-        // If the <meta> tag doesn't exist, create and append it to the document head
-        const newMetaTag = document.createElement('meta');
-        newMetaTag.setAttribute('property', 'og:image');
-        newMetaTag.content = event.url_image;
-        document.head.appendChild(newMetaTag);
-    }
+    // if (ogImageMeta) {
+    //     ogImageMeta.content = event.url_image;
+    // } else {
+    //     // If the <meta> tag doesn't exist, create and append it to the document head
+    //     const newMetaTag = document.createElement('meta');
+    //     newMetaTag.setAttribute('property', 'og:image');
+    //     newMetaTag.content = event.url_image;
+    //     document.head.appendChild(newMetaTag);
+    // }
 }
