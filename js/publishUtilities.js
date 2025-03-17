@@ -5,7 +5,7 @@ function publishFutureEvents() {
         // sort events in descending order of expiration
         const sortedData = sortByKey({array:data.events, key:'datetime_expire_et', descending:false});
 
-        var current_section = '';
+        var current_section_year = '';
 
         sortedData.forEach(event => {
 
@@ -16,22 +16,22 @@ function publishFutureEvents() {
 
             // if in future
             if (currentTime < validTime) {
-                if (current_section != validTime.getFullYear()) {
-                    current_section = validTime.getFullYear();
+                if (current_section_year != validTime.getFullYear()) {
+                    current_section_year = validTime.getFullYear();
                     
                     var hElement = document.createElement('h1');
                     hElement.style = 'text-align: center;';
-                    hElement.textContent = current_section;
+                    hElement.textContent = current_section_year;
                     document.getElementById('future_events').appendChild(hElement);
 
                     var divElement = document.createElement('div');
                     divElement.className = "flex-grid";
-                    divElement.id = current_section;
+                    divElement.id = current_section_year;
                     document.getElementById('future_events').appendChild(divElement);
                 }
 
                 // publish the event to the webpage
-                publishEvent({event:event, section:current_section});
+                publishEvent({event:event, section:current_section_year});
             }
         })
     })
@@ -66,7 +66,7 @@ function publishPastEvents() {
         // sort events in descending order of expiration
         const sortedData = sortByKey({array:data.events, key:'datetime_expire_et', descending:true});
 
-        var current_section = '';
+        var current_section_year = '';
 
         sortedData.forEach(event => {
 
@@ -77,22 +77,22 @@ function publishPastEvents() {
 
             // if in future
             if (currentTime > expireTime) {
-                if (current_section != expireTime.getFullYear()) {
-                    current_section = expireTime.getFullYear();
+                if (current_section_year != expireTime.getFullYear()) {
+                    current_section_year = expireTime.getFullYear();
                     
-                    var hElement = document.createElement('h1');
-                    hElement.style = 'text-align: center;';
-                    hElement.textContent = current_section;
+                    var hElement = document.createElement('h3');
+                    hElement.className = 'event-poster-year';
+                    hElement.textContent = current_section_year;
                     document.getElementById('past_events').appendChild(hElement);
 
                     var divElement = document.createElement('div');
                     divElement.className = "flex-grid";
-                    divElement.id = current_section;
+                    divElement.id = current_section_year;
                     document.getElementById('past_events').appendChild(divElement);
                 }
 
                 // publish the event to the webpage
-                publishEvent({event:event, section:current_section});
+                publishEvent({event:event, section:current_section_year});
             }
         })
     })
@@ -149,6 +149,7 @@ function sortByKey({array=[], key="", descending=false}={}) {
 function publishEvent({event={}, section=""}={}) {
     // create div
     const divElement = document.createElement('div');
+  	divElement.setAttribute("class", "rubber-club-event-poster");
 
     // create the a href tag element
     const linkElement = document.createElement('a');
@@ -164,17 +165,4 @@ function publishEvent({event={}, section=""}={}) {
     document.getElementById(section).appendChild(divElement);
     divElement.appendChild(linkElement);
     linkElement.appendChild(imgElement);
-
-    // update the content attribute for social media paste (image url in the header)
-    // const ogImageMeta = document.querySelector('meta[property="og:image"]');
-
-    // if (ogImageMeta) {
-    //     ogImageMeta.content = event.url_image;
-    // } else {
-    //     // If the <meta> tag doesn't exist, create and append it to the document head
-    //     const newMetaTag = document.createElement('meta');
-    //     newMetaTag.setAttribute('property', 'og:image');
-    //     newMetaTag.content = event.url_image;
-    //     document.head.appendChild(newMetaTag);
-    // }
 }

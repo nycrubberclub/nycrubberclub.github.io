@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Responsive Styles */
+
+@media screen and (max-width:960px) {
+	header #nycrubberclub-logo {
+		text-align: center;
+	}
+	#nycrubberclub-logo img.nycrc-logo {
+		max-width: 100%;
+		height: auto;
+	}
+	#past_events .rubber-club-event-poster {
+		width: 23%;
+	}
+	.content ul.gallery-list li {
+		float: left;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		width: 50%;
+	}
+}
+@media screen and (max-width:768px) {
+	.content h1 {
+		font-size:2em;
+	}
+	.content h2 {
+		font-size:1.75em;
+	}
+	.content h3 {
+		font-size:1.5em;
+	}
+	.content h4 {
+		font-size:1.25em;
+	}
+	.content h5 {
+		font-size:1.15em;
+	}
+	.content h6 {
+		font-size:1em;
+	}
+	header {
+		display: table;
+		padding: 0 0 0 0;
+		background-size: cover;
+		border-bottom: 2px solid #020f0e;
+	}
+	#header-bg-overlay {
+		padding: 0 0 0px 0;
+	}
+	#nycrubberclub-logo img.nycrc-logo {
+		width:100%;
+		height: auto;
+	}
+	#nycrubberclub-logo img.nycrc-logo.sticky-logo {
+		width: 100%;
+		height: auto;
+	}
+	ul.nav-menu {
+		margin: 0 0 0 10px;
+		text-align: left;
+	}
+	ul.nav-menu li a {
+		display: inline-block;
+		font-weight: 400;
+		font-size: 1.25em;
+	}
+	#content {
+		margin-top: -20px;
+		padding: 0 0 30px 0;
+	}
+	.content.content-padding-left, .content .content-padding-left {
+		padding-left: 0px;
+	}
+	.content.content-padding-right, .content .content-padding-right {
+		padding-right: 0px;
+	}
+	.content.content-padding-both, .content .content-padding-both {
+		padding: 0px 0px;
+	}
+	#past_events .rubber-club-event-poster {
+		width: 46%;
+	}
+	#subscribe-mc-rubber-news form#mc-embedded-subscribe-form {
+		text-align: left;
+	}
+	#subscribe-mc-rubber-news form#mc-embedded-subscribe-form input#mce-EMAIL {
+		width: 100%;
+	}
+	#subscribe-mc-rubber-news form#mc-embedded-subscribe-form input#mc-embedded-subscribe {
+		display: inline-block;
+		clear: both;
+		margin: 16px 0 16px 0px;
+	}
+	footer {
+		padding-bottom: 36px;
+	}
+	#footer-widgets .content {
+		padding-right: 0px;
+	}
+	#footer-widgets form#mc-embedded-subscribe-form input#mce-EMAIL {
+		clear: both;
+		display: block;
+		padding: 10px 12px;
+		border-radius: 5px;
+		border-style: none;
+		font-size: 16px;
+		width: 80%;
+	}
+	ul.copyright-links {
+		text-align: left;
+	}
+}

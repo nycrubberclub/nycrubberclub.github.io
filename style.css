@@ -1,0 +1,728 @@
+/*
+Theme Name: NYC Rubber Club
+Theme URI: https://github.com/dannyliamho/nycrubberclub
+Author: dannyliamho
+Author URI: https://github.com/dannyliamho
+Description: NYC Rubber Club GitHub Website Overhaul
+Version: 1.0
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+body {
+	font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Headings and Paragraphs */
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+	margin-top: 0px;
+	margin-bottom: 24px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-optical-sizing: auto;
+	color: #179993;
+}
+.content h1 i, .content h2 i, .content h3 i, .content h4 i, .content h5 i, .content h6 i {
+	margin-right: 14px;
+}
+.content h1 {
+	font-size:3em;
+}
+.content h2 {
+	font-size:2.75em;
+}
+.content h3 {
+	font-size:2.5em;
+}
+.content h4 {
+	font-size:2em;
+}
+.content h5 {
+	font-size:1.75em;
+}
+.content h6 {
+	font-size:1.5em;
+}
+.content p {
+	font-size: 16px;
+	line-height: 145%;
+}
+.content p i {
+	margin-left: 14px;
+	font-size: 20px;
+}
+
+/* HEADER */
+
+header {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #000;
+	background-image: url('images/nycrubberclub-nyc-skyline.png');
+	background-size: contain;
+	background-repeat: repeat-x;
+	background-position: center;
+	border-bottom: 2px solid #000;
+	position: sticky;
+	top: 0px;
+	-webkit-transition: all 100ms ease;
+  	transition: all 100ms ease;
+}
+#header-bg-overlay {
+	background: linear-gradient(180deg, rgba(23,153,147,0.88) 0%, rgba(0,0,0,0.95) 100%);
+}
+#nycrubberclub-logo {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+#nycrubberclub-logo img.nycrc-logo {
+	margin: 0 0 0 0;
+	max-width: 100%;
+	height: auto;
+}
+
+/* HEADER Fixed Header */
+
+header.sticky {
+	z-index:99;
+}
+
+/* HEADER Navigation-Menu */
+
+ul.nav-menu {
+	margin: 64px 0 0 0;
+	padding: 0 0 0 0;
+	list-style: none;
+	width: 100%;
+	text-align: right;
+}
+ul.nav-menu li {
+	display: inline-block;
+	margin: 0 20px 0 0;
+	padding: 0 0 0 0;
+}
+ul.nav-menu li:last-child {
+	margin: 0 0 0 0;
+}
+ul.nav-menu li a {
+	display: inline-block;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: 1.55em;
+	text-decoration: none;
+	color: #fff;
+}
+ul.nav-menu li a:hover {
+	color: #b9e0de;
+	-webkit-transition: all 500ms ease;
+  	transition: all 500ms ease;
+	text-decoration: underline;
+}
+ul.nav-menu li ul {
+	display: none;
+}
+
+/* Follow Us */
+
+#nycrubberclub-follow-us {
+	margin: 0 0 0 0;
+	padding: 0 0 20px 0;
+	background-color: #179993;
+}
+ul.follow-us-list {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	list-style: none;
+	text-align: center;
+}
+ul.follow-us-list li {
+	display: inline-block;
+	margin: 0 0px 0 0;
+	padding: 0 0 0 0;
+}
+ul.follow-us-list li:last-child {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+ul.follow-us-list li a {
+	display: block;
+	margin: 0 0 0 0;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+ul.follow-us-list li i {
+	font-size: 36px;
+	color: #fff;
+}
+ul.follow-us-list li h4 {
+	margin: 10px 0 0 0;
+	padding: 0 0 0 0;
+	color: #fff;
+	font-size: 18px;
+}
+ul.follow-us-list li a:hover i,
+ul.follow-us-list li a:hover h4 {
+	color: #000;
+	-webkit-transition: all 500ms ease;
+  	transition: all 500ms ease;
+	text-decoration: none;
+}
+
+/* CONTENT */
+
+#content {
+	clear: both;
+	margin: 0;
+	padding: 30px 0px 56px 0px;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+}
+.content.content-padding-left, .content .content-padding-left {
+	padding-left: 40px;
+}
+.content.content-padding-right, .content .content-padding-right {
+	padding-right: 40px;
+}
+.content.content-padding-both, .content .content-padding-both {
+	padding: 0px 40px;
+}
+#content .content p a {
+	color: #fff;
+}
+#content .content p a:hover {
+	color: #179993;
+	-webkit-transition: all 500ms ease;
+  	transition: all 500ms ease;
+}
+#content .content img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* CONTENT List Links */
+
+ul.content-list-links {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	list-style: none;
+}
+ul.content-list-links li {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+ul.content-list-links li h3.title {
+	margin-bottom: 0px;
+	font-size: 1.55em;
+	color: #fff;
+}
+ul.content-list-links li p.description {
+	margin-top: 8px;
+}
+ul.content-list-links li a {
+	color: #fff;
+	text-decoration: underline;
+}
+ul.content-list-links li a i {
+	color: #74C2BE;
+	text-decoration: none;
+}
+ul.content-list-links li a:hover, ul.content-list-links li a:hover i {
+	color: #179993;
+	-webkit-transition: all 500ms ease;
+  	transition: all 500ms ease;
+}
+ul.content-list-links-horizontal {
+	margin: 16px 0 24px 0;
+	padding: 0 0 0 0;
+	width: 100%;
+	list-style: none;
+	display: flex;
+  	justify-content: center;
+}
+ul.content-list-links-horizontal li {
+	float: left;
+	display: inline-block;
+	margin: 0 16px 0 0;
+	padding: 0 0 0 0;
+}
+ul.content-list-links-horizontal li:last-child {
+	margin: 0 0px 0 0;
+}
+ul.content-list-links-horizontal li a {
+	color: #fff;
+}
+
+/* CONTENT Notice Box */
+
+.content .notice-box-bordered, .content .notice-box-solid {
+	border-radius:10px;
+}
+.content .notice-box-bordered {
+	padding: 20px 20px;
+	border: 3px solid #179993;
+}
+.content .notice-box-solid {
+	padding: 10px 16px;
+	background-color: #179993;
+	color: #fff;
+}
+.content .notice-box-bordered i, .content .notice-box-solid i {
+	display: block;
+	font-size: 2em;
+	margin: 0px 16px 10px 0px;
+}
+
+/* CONTENT Code Box */
+
+.content code {
+	display: block;
+	padding: 8px 12px;
+	background-color: #0D0D0D;
+}
+
+/* CONTENT Gallery */
+
+.content ul.gallery-list {
+	display: table;
+	margin: 24px 0 24px 0;
+	padding: 0 0 0 0;
+	list-style: none;
+}
+.content ul.gallery-list li {
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 25%;
+}
+
+/* Home Page Event Poster */
+
+#next_event {
+	margin: 0 0 36px 0;
+	padding: 0 0 0 0;
+}
+#next_event .rubber-club-event-poster {
+	
+}
+#next_event img, #next_event .rubber-club-event-poster img {
+	max-width: 100%;
+	height: auto;
+	border: 2px solid #020f0e;
+	border-radius: 5px;
+}
+
+/* Home Page Google Calendar */
+
+#future-events-gcal {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+#future-events-gcal iframe {
+	width: 100%;
+	height: 360px;
+	border-radius: 5px;
+}
+
+/* ABOUT */
+
+.about-committee {
+	text-align: center;
+}
+.about-committee .content {
+	margin-bottom: 20px;
+}
+.about-committee h4.committee-member-title {
+	margin-top: 16px;
+	font-size: 1.55em;
+	line-height: 125%;
+	text-transform: uppercase;
+}
+.about-committee h4.committee-member-title small {
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+}
+.about-committee img.committee-member-img {
+	margin-top: 24px;
+	width: 80%;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+
+/* COMMUNITIES */
+
+#nyckinklink-gcal {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+#nyckinklink-gcal iframe {
+	width: 100%;
+	height: 540px;
+	border-radius: 5px;
+}
+
+/* PAST EVENTS */
+
+#past_events h3.event-poster-year {
+	clear: both;
+	display: table;
+	width: 100%;
+	text-align: center;
+}
+#past_events .flex-grid {
+	display: inline-flex;
+	margin: 0 0 0 0;
+    width: 100%;
+	text-align: center;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+#past_events .rubber-club-event-poster {
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 32%;
+}
+#past_events .rubber-club-event-poster a {
+	cursor: pointer;
+}
+#past_events .rubber-club-event-poster img {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	max-width: 100%;
+	height: auto;
+}
+
+/* MERCH */
+
+/* CONTACT */
+
+/* TELEGRAM */
+
+/* GEAR SWAP */
+
+.gear-swap-tag {
+	margin: 0px 0px 20px 0px;
+	padding: 10px 20px;
+	border: 3px solid #fff;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.gear-swap-tag p {
+	margin: 5px 0px;
+}
+.gear-swap-tag strong {
+	margin: 0px 10px 0px 0px;
+	text-transform: uppercase;
+	color: #179993;
+}
+
+/* MailChimp Newsletter Subscribe */
+
+#subscribe-mc-rubber-news {
+	display: none;
+	padding-bottom: 24px;
+	color: #fff;
+}
+#subscribe-mc-rubber-news .content i {
+	color: #fff;
+}
+
+/* MailChimp Form */
+
+#subscribe-mc-rubber-news form#mc-embedded-subscribe-form {
+	width: 100%;
+	text-align: right;
+}
+#subscribe-mc-rubber-news form#mc-embedded-subscribe-form label[for='mce-EMAIL'] {
+	margin-right: 16px;
+	font-size: 20px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+}
+#subscribe-mc-rubber-news form#mc-embedded-subscribe-form input#mce-EMAIL {
+	padding: 10px 12px;
+	border-radius: 5px;
+	border-style: none;
+	font-size: 16px;
+	width: 50%;
+}
+#subscribe-mc-rubber-news form#mc-embedded-subscribe-form input#mc-embedded-subscribe {
+	display: inline-block;
+	margin: 16px 0 16px 10px;
+	padding: 12px 18px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: 1.15em;
+	line-height: 100%;
+	text-decoration: none;
+	border-radius: 5px;
+	border-bottom: none;
+	border-style: hidden;
+	background-color: #179993;
+	color: #fff;
+	text-transform: uppercase;
+}
+#subscribe-mc-rubber-news form#mc-embedded-subscribe-form input#mc-embedded-subscribe:hover {
+	cursor: pointer;
+	background-color: #fff;
+	color: #179993;
+	-webkit-transition: all 500ms ease;
+  	transition: all 500ms ease;
+}
+
+/* Events Calendar Subscribe */
+
+#subscribe-events-calendar {
+	padding-bottom: 24px;
+	color: #fff;
+}
+#subscribe-events-calendar .content i {
+	color: #fff;
+}
+#subscribe-events-calendar h3.title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 2em;
+	
+}
+#subscribe-events-calendar a.button-teal, #subscribe-events-calendar a.button-black {
+	margin: 0px 0;
+}
+
+/* FOOTER */
+
+footer {
+	margin: 0;
+	padding: 8px 0;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	border-top: 3px solid;
+	border-image: linear-gradient(to right,#179993,#0d5b58) 1 0 0 0;
+}
+footer .content p {
+	margin-top: 0px;
+}
+#copyright {
+	width: 100%;
+	border-top: 1px solid #191919;
+}
+
+/* FOOTER Widget Areas */
+
+#footer-widgets {
+	padding-bottom: 48px;
+}
+#footer-widgets .content {
+	padding-right: 48px;
+}
+#footer-widgets h3.title {
+	font-size: 2em;
+}
+#footer-widgets ul.footer-links {
+	margin: 0 0 36px 0;
+	padding: 0 0;
+	list-style: none;
+	text-align: left;
+}
+#footer-widgets ul.footer-links li {
+	display: block;
+	margin: 0 0 16px 0;
+	padding: 0 0;
+}
+#footer-widgets ul.footer-links li:last-child {
+	margin: 0 0 0 0;
+}
+#footer-widgets ul.footer-links li h3.title {
+	margin: 0 0;
+	padding: 0 0;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1em;
+	color: #fff;
+}
+#footer-widgets ul.footer-links li p.description {
+	margin: 0 0;
+	padding: 0 0;
+	display: none;
+}
+#footer-widgets ul.footer-links li a {
+	display: inline-block;
+	margin: 0 0;
+	padding: 0 0;
+	color: #fff;
+	text-decoration: underline;
+}
+#footer-widgets ul.footer-links li a i {
+	display: none;
+}
+#footer-widgets ul.footer-links li a h4 {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1em;
+	color: #fff;
+}
+#footer-widgets ul.footer-links li a:hover,
+#footer-widgets ul.footer-links li a:hover h4 {
+	color: #179993;
+	text-decoration: underline;
+	-webkit-transition: all 500ms ease;
+  	transition: all 500ms ease;
+}
+
+/* FOOTER Widget Areas MailChimp Subscribe */
+
+#footer-widgets form#mc-embedded-subscribe-form {
+	text-align: left;
+}
+#footer-widgets form#mc-embedded-subscribe-form label[for='mce-EMAIL'] {
+	display: block;
+	margin: 0px 16px 10px 0px;
+	font-size: 20px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+}
+#footer-widgets form#mc-embedded-subscribe-form input#mce-EMAIL {
+	clear: both;
+	display: block;
+	padding: 10px 12px;
+	border-radius: 5px;
+	border-style: none;
+	font-size: 16px;
+	width: 75%;
+}
+#footer-widgets form#mc-embedded-subscribe-form input#mc-embedded-subscribe {
+	display: inline-block;
+	margin: 16px 0 16px 0px;
+	padding: 12px 18px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: 1.15em;
+	line-height: 100%;
+	text-decoration: none;
+	border-radius: 5px;
+	border-bottom: none;
+	border-style: hidden;
+	background-color: #179993;
+	color: #fff;
+	text-transform: uppercase;
+}
+#footer-widgets form#mc-embedded-subscribe-form input#mc-embedded-subscribe:hover {
+	cursor: pointer;
+	background-color: #fff;
+	color: #179993;
+	-webkit-transition: all 500ms ease;
+  	transition: all 500ms ease;
+}
+
+/* FOOTER Navigation-Menu Copyright */
+
+ul.copyright-links {
+	margin: 0 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	text-align: right;
+}
+ul.copyright-links li {
+	display: inline-block;
+	margin: 0 16px 0 0;
+	padding: 0 16px 0 0;
+	border-right: 1px solid #4c4c4c;
+}
+ul.copyright-links li:last-child {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	border-right: none;
+}
+ul.copyright-links li a {
+	display: block;
+	padding: 0 0 0 0;
+	color: #fff;
+	text-decoration: none;
+}
+ul.copyright-links li a:hover {
+	color: #179993;
+	text-decoration: underline;
+	-webkit-transition: all 500ms ease;
+  	transition: all 500ms ease;
+}
+ul.copyright-links li ul {
+	display: none;
+}
+
+/* Buttons */
+
+a.button-teal, a.button-black {
+	display: inline-block;
+	margin: 16px 0;
+	padding: 14px 22px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: 1.15em;
+	text-decoration: none;
+	border-radius:5px;
+}
+a.button-teal i, a.button-black i {
+	margin: 0 10px 0 0;
+}
+a.button-teal {
+	background-color: #179993;
+	color: #fff;
+}
+a.button-teal:hover {
+	background-color: #fff;
+	color: #179993;
+	-webkit-transition: all 500ms ease;
+  	transition: all 500ms ease;
+}
+a.button-black {
+	background-color: #000;
+	color: #fff;
+}
+a.button-black:hover {
+	background-color: #179993;
+	color: #fff;
+	-webkit-transition: all 500ms ease;
+  	transition: all 500ms ease;
+}
+
+/* Colors */
+
+.color-nycrc-teal {
+	color: #179993;
+}
+.color-nycrc-teal-light {
+	color: #b9e0de;
+}
+.color-nycrc-teal-dark {
+	color: #0d5b58;
+}
+.color-nycrc-black {
+	color: #000;
+}
+.background-color-nycrc-gradient-light-dark-teal {
+	background: linear-gradient(90deg, rgba(185,224,222,1) 0%, rgba(23,153,147,1) 50%, rgba(13,91,88,1) 100%);
+}
+
+/* Fonts */
+
+.font-roboto {
+	font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+	font-optical-sizing: auto;
+}
+.font-oswald {
+	font-family: "Oswald", sans-serif;
+	font-optical-sizing: auto;
+}
