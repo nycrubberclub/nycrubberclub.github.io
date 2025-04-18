@@ -1,6 +1,13 @@
 {
     "events": [
         {
+            "datetime_valid_et": "2025/04/26 09:00 PM",
+            "datetime_expire_et": "2025/05/18 09:00 PM",
+            "url_image": "events/2025/2025.05.18 - Eagle - Bluff - Party - (1024x).jpg",
+            "url_google_calendar": "https://calendar.google.com/calendar/u/0/r/eventedit/copy/MWwxNWZ0Zmk0bzBlOHFwNnIwMzRzNWIxdDggamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
+            "alt_image_text": "Join us for a fun rubber-filled night at The Eagle Bar!"
+        },
+        {
             "datetime_valid_et": "2025/03/22 09:00 PM",
             "datetime_expire_et": "2025/04/26 09:00 PM",
             "url_image": "events/2025/2025.04.26 - Metropolitan - Social - (1024x).jpg",
