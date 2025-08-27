@@ -1,6 +1,13 @@
 {
   "events": [
     {
+      "datetime_valid_et": "2025/09/13 09:00 PM",
+      "datetime_expire_et": "2025/10/05 09:00 PM",
+      "url_image": "events/2025/2025.10.05 - Eagle - Social - (1024x).jpg",
+      "url_google_calendar": "https://calendar.google.com/calendar/u/0/r/eventedit/copy/NTFuanNlaGI3dGF2aXJ0dWd2ajRobXYwMDAgamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
+      "alt_image_text": "Join us for a fun rubber-filled night at The Eagle Bar!"
+    },
+    {
       "datetime_valid_et": "2025/08/02 09:00 PM",
       "datetime_expire_et": "2025/09/13 09:00 PM",
       "url_image": "events/2025/2025.09.13 - Atlas - Social - (1024x).jpg",
