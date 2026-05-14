@@ -1,6 +1,13 @@
 {
   "events": [
     {
+      "datetime_valid_et": "2026/05/16 9:00 PM",
+      "datetime_expire_et": "2026/07/11 11:59 PM",
+      "url_image": "events/2026/2026.07.11 - Atlas - Social - (1024x).jpg",
+      "url_google_calendar": "https://calendar.google.com/calendar/u/0/r/eventedit/copy/MHI2NjRta240c29tcm05NThsM2ZsdTQzMmUgamZmc2hzNnFkMG5rNmUwMDJjZjAzMGZ1ZmtAZw",
+      "alt_image_text": "Join us for a fun rubber-filled night at Atlas Social Club Bar!"
+    },
+    {
       "datetime_valid_et": "2026/04/19 9:00 PM",
       "datetime_expire_et": "2026/05/16 9:00 PM",
       "url_image": "events/2026/2026.05.16 - Metropolitan - Social - (1024x).jpg",
